@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8247268121A0B12F00B976E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247268021A0B12F00B976E3 /* AppDelegate.swift */; };
+		8247268321A0B12F00B976E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247268221A0B12F00B976E3 /* ViewController.swift */; };
+		8247268621A0B12F00B976E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8247268421A0B12F00B976E3 /* Main.storyboard */; };
+		8247268821A0B13100B976E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8247268721A0B13100B976E3 /* Assets.xcassets */; };
+		8247268B21A0B13100B976E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8247268921A0B13100B976E3 /* LaunchScreen.storyboard */; };
+		8247269621A0B13100B976E3 /* Bible_Questions_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247269521A0B13100B976E3 /* Bible_Questions_TriviaTests.swift */; };
+		824726A121A0B13100B976E3 /* Bible_Questions_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824726A021A0B13100B976E3 /* Bible_Questions_TriviaUITests.swift */; };
+		824726AF21A0B2FD00B976E3 /* BibleQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824726AE21A0B2FD00B976E3 /* BibleQuestions.swift */; };
+		824726B321A121B900B976E3 /* BibleQuestionAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824726B221A121B900B976E3 /* BibleQuestionAnswers.swift */; };
+		824726BE21A63C7400B976E3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 824726BB21A63C7400B976E3 /* ProgressHUD.bundle */; };
+		824726BF21A63C7400B976E3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 824726BD21A63C7400B976E3 /* ProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8247269221A0B13100B976E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8247267521A0B12F00B976E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8247267C21A0B12F00B976E3;
+			remoteInfo = "Bible Questions Trivia";
+		};
+		8247269D21A0B13100B976E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8247267521A0B12F00B976E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8247267C21A0B12F00B976E3;
+			remoteInfo = "Bible Questions Trivia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8247267D21A0B12F00B976E3 /* Bible Questions Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bible Questions Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8247268021A0B12F00B976E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8247268221A0B12F00B976E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8247268521A0B12F00B976E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8247268721A0B13100B976E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8247268A21A0B13100B976E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8247268C21A0B13100B976E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8247269121A0B13100B976E3 /* Bible Questions TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible Questions TriviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8247269521A0B13100B976E3 /* Bible_Questions_TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible_Questions_TriviaTests.swift; sourceTree = "<group>"; };
+		8247269721A0B13100B976E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8247269C21A0B13100B976E3 /* Bible Questions TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible Questions TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		824726A021A0B13100B976E3 /* Bible_Questions_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible_Questions_TriviaUITests.swift; sourceTree = "<group>"; };
+		824726A221A0B13100B976E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824726AE21A0B2FD00B976E3 /* BibleQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleQuestions.swift; sourceTree = "<group>"; };
+		824726B221A121B900B976E3 /* BibleQuestionAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleQuestionAnswers.swift; sourceTree = "<group>"; };
+		824726BA21A63C7300B976E3 /* Bible Questions Trivia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bible Questions Trivia-Bridging-Header.h"; sourceTree = "<group>"; };
+		824726BB21A63C7400B976E3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		824726BC21A63C7400B976E3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		824726BD21A63C7400B976E3 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8247267A21A0B12F00B976E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247268E21A0B13100B976E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247269921A0B13100B976E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8247267421A0B12F00B976E3 = {
+			isa = PBXGroup;
+			children = (
+				8247267F21A0B12F00B976E3 /* Bible Questions Trivia */,
+				8247269421A0B13100B976E3 /* Bible Questions TriviaTests */,
+				8247269F21A0B13100B976E3 /* Bible Questions TriviaUITests */,
+				8247267E21A0B12F00B976E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8247267E21A0B12F00B976E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8247267D21A0B12F00B976E3 /* Bible Questions Trivia.app */,
+				8247269121A0B13100B976E3 /* Bible Questions TriviaTests.xctest */,
+				8247269C21A0B13100B976E3 /* Bible Questions TriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8247267F21A0B12F00B976E3 /* Bible Questions Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				8247268021A0B12F00B976E3 /* AppDelegate.swift */,
+				8247268221A0B12F00B976E3 /* ViewController.swift */,
+				824726BB21A63C7400B976E3 /* ProgressHUD.bundle */,
+				824726BC21A63C7400B976E3 /* ProgressHUD.h */,
+				824726BD21A63C7400B976E3 /* ProgressHUD.m */,
+				8247268421A0B12F00B976E3 /* Main.storyboard */,
+				824726AE21A0B2FD00B976E3 /* BibleQuestions.swift */,
+				824726B221A121B900B976E3 /* BibleQuestionAnswers.swift */,
+				8247268721A0B13100B976E3 /* Assets.xcassets */,
+				8247268921A0B13100B976E3 /* LaunchScreen.storyboard */,
+				8247268C21A0B13100B976E3 /* Info.plist */,
+				824726BA21A63C7300B976E3 /* Bible Questions Trivia-Bridging-Header.h */,
+			);
+			path = "Bible Questions Trivia";
+			sourceTree = "<group>";
+		};
+		8247269421A0B13100B976E3 /* Bible Questions TriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8247269521A0B13100B976E3 /* Bible_Questions_TriviaTests.swift */,
+				8247269721A0B13100B976E3 /* Info.plist */,
+			);
+			path = "Bible Questions TriviaTests";
+			sourceTree = "<group>";
+		};
+		8247269F21A0B13100B976E3 /* Bible Questions TriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				824726A021A0B13100B976E3 /* Bible_Questions_TriviaUITests.swift */,
+				824726A221A0B13100B976E3 /* Info.plist */,
+			);
+			path = "Bible Questions TriviaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8247267C21A0B12F00B976E3 /* Bible Questions Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824726A521A0B13100B976E3 /* Build configuration list for PBXNativeTarget "Bible Questions Trivia" */;
+			buildPhases = (
+				8247267921A0B12F00B976E3 /* Sources */,
+				8247267A21A0B12F00B976E3 /* Frameworks */,
+				8247267B21A0B12F00B976E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bible Questions Trivia";
+			productName = "Bible Questions Trivia";
+			productReference = 8247267D21A0B12F00B976E3 /* Bible Questions Trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8247269021A0B13100B976E3 /* Bible Questions TriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824726A821A0B13100B976E3 /* Build configuration list for PBXNativeTarget "Bible Questions TriviaTests" */;
+			buildPhases = (
+				8247268D21A0B13100B976E3 /* Sources */,
+				8247268E21A0B13100B976E3 /* Frameworks */,
+				8247268F21A0B13100B976E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8247269321A0B13100B976E3 /* PBXTargetDependency */,
+			);
+			name = "Bible Questions TriviaTests";
+			productName = "Bible Questions TriviaTests";
+			productReference = 8247269121A0B13100B976E3 /* Bible Questions TriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8247269B21A0B13100B976E3 /* Bible Questions TriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824726AB21A0B13100B976E3 /* Build configuration list for PBXNativeTarget "Bible Questions TriviaUITests" */;
+			buildPhases = (
+				8247269821A0B13100B976E3 /* Sources */,
+				8247269921A0B13100B976E3 /* Frameworks */,
+				8247269A21A0B13100B976E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8247269E21A0B13100B976E3 /* PBXTargetDependency */,
+			);
+			name = "Bible Questions TriviaUITests";
+			productName = "Bible Questions TriviaUITests";
+			productReference = 8247269C21A0B13100B976E3 /* Bible Questions TriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8247267521A0B12F00B976E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sanjeev Bedasee";
+				TargetAttributes = {
+					8247267C21A0B12F00B976E3 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					8247269021A0B13100B976E3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8247267C21A0B12F00B976E3;
+					};
+					8247269B21A0B13100B976E3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8247267C21A0B12F00B976E3;
+					};
+				};
+			};
+			buildConfigurationList = 8247267821A0B12F00B976E3 /* Build configuration list for PBXProject "Bible Questions Trivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8247267421A0B12F00B976E3;
+			productRefGroup = 8247267E21A0B12F00B976E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8247267C21A0B12F00B976E3 /* Bible Questions Trivia */,
+				8247269021A0B13100B976E3 /* Bible Questions TriviaTests */,
+				8247269B21A0B13100B976E3 /* Bible Questions TriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8247267B21A0B12F00B976E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824726BE21A63C7400B976E3 /* ProgressHUD.bundle in Resources */,
+				8247268B21A0B13100B976E3 /* LaunchScreen.storyboard in Resources */,
+				8247268821A0B13100B976E3 /* Assets.xcassets in Resources */,
+				8247268621A0B12F00B976E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247268F21A0B13100B976E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247269A21A0B13100B976E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8247267921A0B12F00B976E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8247268321A0B12F00B976E3 /* ViewController.swift in Sources */,
+				8247268121A0B12F00B976E3 /* AppDelegate.swift in Sources */,
+				824726BF21A63C7400B976E3 /* ProgressHUD.m in Sources */,
+				824726B321A121B900B976E3 /* BibleQuestionAnswers.swift in Sources */,
+				824726AF21A0B2FD00B976E3 /* BibleQuestions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247268D21A0B13100B976E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8247269621A0B13100B976E3 /* Bible_Questions_TriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8247269821A0B13100B976E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824726A121A0B13100B976E3 /* Bible_Questions_TriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8247269321A0B13100B976E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8247267C21A0B12F00B976E3 /* Bible Questions Trivia */;
+			targetProxy = 8247269221A0B13100B976E3 /* PBXContainerItemProxy */;
+		};
+		8247269E21A0B13100B976E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8247267C21A0B12F00B976E3 /* Bible Questions Trivia */;
+			targetProxy = 8247269D21A0B13100B976E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8247268421A0B12F00B976E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8247268521A0B12F00B976E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8247268921A0B13100B976E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8247268A21A0B13100B976E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		824726A321A0B13100B976E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		824726A421A0B13100B976E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		824726A621A0B13100B976E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6VBY29TE;
+				INFOPLIST_FILE = "Bible Questions Trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbedx4.Bible-Questions-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bible Questions Trivia/Bible Questions Trivia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		824726A721A0B13100B976E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6VBY29TE;
+				INFOPLIST_FILE = "Bible Questions Trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbedx4.Bible-Questions-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bible Questions Trivia/Bible Questions Trivia-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		824726A921A0B13100B976E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6VBY29TE;
+				INFOPLIST_FILE = "Bible Questions TriviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbedx4.Bible-Questions-TriviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bible Questions Trivia.app/Bible Questions Trivia";
+			};
+			name = Debug;
+		};
+		824726AA21A0B13100B976E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6VBY29TE;
+				INFOPLIST_FILE = "Bible Questions TriviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbedx4.Bible-Questions-TriviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bible Questions Trivia.app/Bible Questions Trivia";
+			};
+			name = Release;
+		};
+		824726AC21A0B13100B976E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6VBY29TE;
+				INFOPLIST_FILE = "Bible Questions TriviaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbedx4.Bible-Questions-TriviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bible Questions Trivia";
+			};
+			name = Debug;
+		};
+		824726AD21A0B13100B976E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6VBY29TE;
+				INFOPLIST_FILE = "Bible Questions TriviaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbedx4.Bible-Questions-TriviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bible Questions Trivia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8247267821A0B12F00B976E3 /* Build configuration list for PBXProject "Bible Questions Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824726A321A0B13100B976E3 /* Debug */,
+				824726A421A0B13100B976E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824726A521A0B13100B976E3 /* Build configuration list for PBXNativeTarget "Bible Questions Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824726A621A0B13100B976E3 /* Debug */,
+				824726A721A0B13100B976E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824726A821A0B13100B976E3 /* Build configuration list for PBXNativeTarget "Bible Questions TriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824726A921A0B13100B976E3 /* Debug */,
+				824726AA21A0B13100B976E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824726AB21A0B13100B976E3 /* Build configuration list for PBXNativeTarget "Bible Questions TriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824726AC21A0B13100B976E3 /* Debug */,
+				824726AD21A0B13100B976E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8247267521A0B12F00B976E3 /* Project object */;
+}
